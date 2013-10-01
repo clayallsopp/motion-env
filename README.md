@@ -21,7 +21,7 @@ end
 
 In your app:
 
-```irb
+```ruby
 > ENV['string']
 => "Sup dog"
 > ENV['int']
