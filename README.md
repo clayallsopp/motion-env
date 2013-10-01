@@ -28,7 +28,7 @@ In your app:
 => 3
 > ENV['bool']
 => false
-(main)> ENV['hash']
+> ENV['hash']
 => {:herp=>"derp"}
 > ENV['array']
 => [1, 2, 3]
