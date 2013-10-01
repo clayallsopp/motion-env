@@ -1,0 +1,16 @@
+PATH
+  remote: .
+  specs:
+    motion-env (0.0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    rake (10.1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  motion-env!
+  rake
