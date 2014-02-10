@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name        = "motion-env"
-  s.version     = "0.0.2"
+  s.version     = "0.0.3"
   s.authors     = ["Clay Allsopp"]
   s.email       = ["clay@usepropeller.com"]
   s.homepage    = "https://github.com/usepropeller/motion-env"
