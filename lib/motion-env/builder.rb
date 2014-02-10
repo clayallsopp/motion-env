@@ -19,7 +19,7 @@ end
         config_env.each do |key, value|
           dump_value = value
           if !value.is_a?(String)
-            dump_value = MARSHAL_SIGIL + Marshal.dump(value)
+            dump_value = MARSHAL_SIGIL + Marshal.dump(value).strip
           end
           f.write "ENV['#{key.to_s}'] = '#{dump_value}'\n"
         end

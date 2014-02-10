@@ -17,6 +17,7 @@ Motion::Project::App.setup do |app|
   app.name = 'motion-env'
 
   app.ENV['hash'] = {herp: "derp"}
+  app.ENV['empty_hash'] = {}
   app.env['string'] = "Sup dog"
   app.env["int"] = 3
   app.env["bool"] = false
