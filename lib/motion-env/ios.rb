@@ -1,5 +1,5 @@
 module Motion; module Project;
-  class IOSConfig
+  class XcodeConfig
     variable :env
 
     class EnvWrapper < Hash
