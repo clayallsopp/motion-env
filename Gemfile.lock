@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    motion-env (0.0.3)
+    motion-env (0.0.4)
 
 GEM
   remote: https://rubygems.org/
